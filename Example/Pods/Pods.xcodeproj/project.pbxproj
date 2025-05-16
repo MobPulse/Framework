@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0089B33F7D0E99F3CE9C0D31E60AFCEA /* MobPulseSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4688D1B2C39BFAE88B0430571869BE0E /* MobPulseSDK-dummy.m */; };
+		037F5556A615ECD521AA35E29BAAD9E8 /* Pods-MobPulseSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A18DF45300A8A14FCAC8F0110EFE1F /* Pods-MobPulseSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04555FF6122966FC45C17075324BB237 /* MobPulseSupplierModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 138E9F8E49ECAA34928406D07455453B /* MobPulseSupplierModel.m */; };
+		061B544EEBD18108117C6985234C11B2 /* MobPulseMediationSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E48153092ABFE7036B66F54C7C596231 /* MobPulseMediationSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4C2765B1E5080BC3DE30C84C11F528 /* ILAdDataJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2C65EDD2A2AD0929E646A25AA48C26 /* ILAdDataJsonModel.m */; };
+		0C3B439C66A59D1B890C0623FCD3B09B /* MobPulseInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = A6057B500D4EE472C2995B2881F2F7BA /* MobPulseInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		133DBBA526C6CC8EDF16EB15AA05F5B2 /* MobPulseFullScreenVideoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BBCA057288B27742598190E3500849 /* MobPulseFullScreenVideoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1432FB2A12AAEDA79380842451341B6D /* ILAdDataJsonManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FA3E06C769B659B320E3A2FC34CBB1 /* ILAdDataJsonManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14363054327A97C11DA24220F90181CF /* MobPulseFullScreenVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B4B849081A065732D4D0139A5DBBDF /* MobPulseFullScreenVideo.m */; };
+		152E75BF87C3F92019210FB0F75BF30B /* MobPulseInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B98450F2471056C2F8A4F12713D9960F /* MobPulseInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C6C243045D17873B145F753229BA /* ILAdDataCommonInfoMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = C5144161C92CCD6156D5E3C0D15BDE84 /* ILAdDataCommonInfoMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C871046E56CC7E26FC065EC2FDF4FF3 /* ILAdDataJsonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F99B22080F793D951994DC027F7187 /* ILAdDataJsonManager.m */; };
+		1EAD7F227D41725077EE4E2D7930515C /* MobPulseBaseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C4F6E45892FD82078D499345D8A6E1 /* MobPulseBaseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A42D2832C1DA5F3B2855662FA4AE0F /* NSArray+ILUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 438B9BF08C4CEB0338D996BCF63E2AFA /* NSArray+ILUtil.m */; };
+		2BA9E425EC73DE9994ED30A4A7D0E97B /* MobPulseRewardVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0670BAEE18700FDF48B78DDF64E9A4A2 /* MobPulseRewardVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CE9B759DF5CE99A66F8949F0C2E19D /* MobPulseMediationSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DF5532B8F9114CF001EA49B876FD4B /* MobPulseMediationSDK.m */; };
+		379A1D6F2EE0DD2653BA5340ED50D96E /* MobPulseSDKClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A75BEF108DACF3715E6F74CAB100A0EF /* MobPulseSDKClassInfo.m */; };
+		38205EB1F00238DA33D47AFB2DBDC48E /* MobPulseNativeCustomExpress.h in Headers */ = {isa = PBXBuildFile; fileRef = 155081E7B05D28D361B5D83C28F1F5A1 /* MobPulseNativeCustomExpress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC9E29FED32969B2BC753B66856997D /* ILAdDataEventModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D54AECD854B5B873FAB966EB5B62E6 /* ILAdDataEventModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE96727AB8687EA53D6611403CB520D /* NSString+ILUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE5249B1A6DB9F8A97DB1C054EF8E97 /* NSString+ILUtil.m */; };
+		414AF001B98B2EF33D0735C42E3368A6 /* MobPulseCommonDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 208F34C4F6400C6CC433746DFAFDE002 /* MobPulseCommonDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4189C593FD3B2F8DED2547A62D0A5CD2 /* MobPulseNativeExpressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3945611FF670FF2BB2E3C78F5D273CB6 /* MobPulseNativeExpressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E921182C6B407770ED932D23A70BCE /* MobPulseSDKSupplierManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDCB60C645256DE305D3CC4ABC5616B /* MobPulseSDKSupplierManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4881BEF6FE0376C370CEBD7DF44AF074 /* NSArray+ILUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C34F345035D5808B48F7981AC3BC71 /* NSArray+ILUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4948F8558A356E4DE2139EB0BD012D40 /* MobPulseBaseAdPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BCCC1E2E16F36114C9FF3F3621D1A4 /* MobPulseBaseAdPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B55D1CF564B56F077D7A3B193AD1726 /* MobPulseFullScreenVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CBD75C98A0FCC38B2CC07DC5035943 /* MobPulseFullScreenVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C64F1CAAA68EA25195F9E1E6B86E27E /* MobPulseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CD1172D8ECE8C5512AF00D8D0B1C8 /* MobPulseConfig.m */; };
+		4FC66DA2BC9286A1B0D90BFA37D87D78 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4850EB5419750553F87B080A643CFF34 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529C4A498FE053F002135E9B1E903525 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBE1FB6C407474187E63E07FEDA41E2 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5354ABBE7C824C96D8FA2EC84166DC37 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF95C16A6770D37CBA0E5B09C937B4A /* GTMBase64.m */; };
+		55E02616102D472F963DA7EA79604AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		55E74F510EE155C2A062CD50611C5BE6 /* ILAdDataJsonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A39BF21D8B245EBFA73E675CB183C8 /* ILAdDataJsonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6DEE2BC83801C34460D4D0D58084C1 /* ILAdDataCommonInfoMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9558B588399D7FD968FB73499DEF022C /* ILAdDataCommonInfoMananger.m */; };
+		5C2B2C5AA980C425336DB1AE4EE95536 /* MobPulseConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3138E092CE7238145266EEF27D86F567 /* MobPulseConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DBE49D21E77B7127CD3A8AEF1F8FCCD /* MobPulseNativeCustomExpress.m in Sources */ = {isa = PBXBuildFile; fileRef = D36F09DEC7480276433432D6B0D2D488 /* MobPulseNativeCustomExpress.m */; };
+		5E3788513FA24F43C20C20C36FDBA402 /* MobPulseMediationMaterialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912C9D69EE6ED7484456D44E6A7A310 /* MobPulseMediationMaterialData.m */; };
+		61E49A8680BD290B9AA9EF28FFAF5C6A /* MobPulseError.h in Headers */ = {isa = PBXBuildFile; fileRef = C30B3BFF1EC90128A451967144F7FA82 /* MobPulseError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666DAC8949BE8EF5E1A82A974554B730 /* MobPulseNativeExpressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CB883F09F05DD746CA450E34E11A2C09 /* MobPulseNativeExpressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E91E6D4C00F79F5D129B2EB3D0FD4B /* MobPulseSDKSupplierManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D413E34B2E812CF915186EE347C819E2 /* MobPulseSDKSupplierManager.m */; };
+		68A2E535BA05298414F4E0E05DF4920A /* MobPulseAdapterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CD3ECDCE71DA03D084F74ED6E3947B /* MobPulseAdapterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68FB8C63202CC7D3115D3358FE915836 /* MobPulseBaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FDCB64339525F69E93A490F094F7D /* MobPulseBaseAdapter.m */; };
+		6A8D7E90B44B8B8D239E9422BED7D0C3 /* MobPulseSDKClassInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B40DD955C7AE9DC0F023E4D16694D57 /* MobPulseSDKClassInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E7284CC43FE6CA7068E50E94BF106F /* MobPulseMedationFeedAdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E645D6367501A06F4658EDC175A6D7F8 /* MobPulseMedationFeedAdModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CB176E321FE4BB0EAE20ED0150ABC80 /* MobPulseBaseAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4C06C0C82A73AE85D227977A5309C5 /* MobPulseBaseAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC8DD0E6C5111C8D6FBE649B3B6528F /* MobPulseError.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9013416AEEDE5615D1B376A427605E /* MobPulseError.m */; };
+		8D80C6769BD36EEB0EBBD060E1E5A10D /* MobPulseSplash.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C79AFE08FAC856D96D2512C1B7649D8 /* MobPulseSplash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91764139ECBEBE508999CFE291F80D08 /* MobPulseRewardVideoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F6AE0E0E2CFFEF71CFE45B4830140 /* MobPulseRewardVideoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9636A7480968D830752F4B6D6B65FD9A /* MobPulseSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C91EE129BD917020FFD8AC2A587BE /* MobPulseSplash.m */; };
+		987E4F6123A01796E83E97E919AB6FCF /* MobPulseBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDABBBAD4E9F24A52EEFB8D1930AF05 /* MobPulseBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A1EE1333464A1CB055B90E161C84EE5 /* NSDictionary+ILUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4B0AC246F21B6CEEC21E1535BF3586 /* NSDictionary+ILUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C0C225149135AF96275D91F87A3D6A9 /* MobPulseSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B19AE847D03660A2165B465C58180EB /* MobPulseSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0E8585634A1E33F22BCDB5BB706350 /* MobPulseSupplierDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3A7925837F0C5C59F257A624966F53 /* MobPulseSupplierDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58189C1BEE67FDDFE097409CE49ED69 /* MobPulseNativeExpress.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A67EF25B3396428806EA871409D08F /* MobPulseNativeExpress.m */; };
+		AC9242963CEB40A709744EA23C61CF93 /* NSObject+MobPulseSDKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B506B0F7657969950568A15F427DD608 /* NSObject+MobPulseSDKModel.m */; };
+		AD64227D03CAB998F3437F73584C23E8 /* MobPulseBaseAdPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB109F2D9383579C62D353D4F5A4C1 /* MobPulseBaseAdPosition.m */; };
+		B57603409D76AB94F025F6471ED11520 /* Pods-MobPulseSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5063AB19867C5B6770507A05E7A60701 /* Pods-MobPulseSDK_Tests-dummy.m */; };
+		B6BD5A395EA0F2DE96D9A494BC538B66 /* MobPulseSDKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A00C1A9F671D9F08A57A884C046DFE /* MobPulseSDKLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA1C3BD42B9D02E7AE9DE6A94325DF05 /* NSString+ILUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A04ACBCF7FBFA0DC4BA9AF7F5020B24D /* NSString+ILUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA694DCE16E4CF9C56C91624CD9D3F24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BCD113D046EF06FC0248116912DE9CEE /* MobPulseMediationMaterialData.h in Headers */ = {isa = PBXBuildFile; fileRef = 529477BD6CA030DEAD81DCBFDA832EE6 /* MobPulseMediationMaterialData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1DA244709744C084BBD9EFC0D81A5AE /* ILAdDataEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F1A2A333448B41ECCE01884B72479A /* ILAdDataEventModel.m */; };
+		CCC7FC0DD2B17FAF2FA623616A6E6F62 /* MobPulseSDKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70369A49C75A356F9BC876DCD2A01D /* MobPulseSDKLog.m */; };
+		D5C6B19FCE89DCF8A1845A47F83D14BD /* MobPulseInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = EE563374AF2A529BAFEEEEF66C43B3A3 /* MobPulseInterstitial.m */; };
+		D78F6170E6B905BD6BCF1451D808D8D5 /* MobPulseBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 488CC20AE0632EA22E2F92D0772B79A4 /* MobPulseBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA47E35D7EF2A8990665F27ED784F396 /* Pods-MobPulseSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 961FF94F7B7030D1D1346B5BD4785BB8 /* Pods-MobPulseSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6E8AB9248B559CF282FA8C56294909 /* MobPulseBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF5CA73FE5FA317973A40C1C5E063B /* MobPulseBanner.m */; };
+		DF54CB3DD810A41B3743A76EA6194EA2 /* UIApplication+MobPulseSDKs.h in Headers */ = {isa = PBXBuildFile; fileRef = C165ECC902CC3AD4508767CD9AF24581 /* UIApplication+MobPulseSDKs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76165D376DFA35A830A3FEE91079A03 /* MobPulseNativeExpress.h in Headers */ = {isa = PBXBuildFile; fileRef = 102D507A5A0FCFEA0CA259F518669DBA /* MobPulseNativeExpress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CD9DEAD1982CE0B9996C57C20B1DD5 /* MobPulseSupplierModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2009B98065C6158FD8B8BAE3ED2E82 /* MobPulseSupplierModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80753668BCD14F1DA6EB9956979540A /* MobPulseRewardVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 97025136C005E34EBAD4E6F8D2EEF30A /* MobPulseRewardVideo.m */; };
+		EE4795715F7BBEE2A738215E75B50509 /* MobPulseSplashDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B05D17B9FC41231756929C5560D4E047 /* MobPulseSplashDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F06FAE5F3A63ED73B5BE2441FC7C4ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F3D9582AE72A79481C94CEA9E005B19D /* Pods-MobPulseSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1250DB653EFCC05E18568D4F4E249B65 /* Pods-MobPulseSDK_Example-dummy.m */; };
+		F3F6F25514CC16953FA45DEF4FD7895D /* MobPulseSDKClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E58975181309A980471B1E4E29ED44DF /* MobPulseSDKClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AB4BB54981A5B61B94A1E26B13B3E2 /* NSObject+MobPulseSDKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AE03D60C920B24E1BE2F14258CBDB8 /* NSObject+MobPulseSDKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5348090117C75EEA6528DB37753A9F8 /* NSDictionary+ILUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E3769CB5D8744829C3CD5E6D255D24FD /* NSDictionary+ILUtil.m */; };
+		F61849D1EAF4F6512A821FBFE8967B4F /* UIApplication+MobPulseSDKs.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD22651F8017BA92E98225146AE9341 /* UIApplication+MobPulseSDKs.m */; };
+		FBE862F9214EA883FFCD67E79E7C130D /* MobPulseNativeExpressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAFE8E057A01F50A9810E4286A06C20 /* MobPulseNativeExpressView.m */; };
+		FD4205D4BB36A321CCF7792BD94427B8 /* MobPulseMedationFeedAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD911CE5E9D9F85247DF043CD4DAA736 /* MobPulseMedationFeedAdModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23AA9D2E3C704AB1D259254E1356A03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8EDC97EADF835FE31FD9B5147910E29;
+			remoteInfo = MobPulseSDK;
+		};
+		4D3DE3B7D941917E2A41773F9A5695C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650C29BF875988CF74A3681AAB2B76F8;
+			remoteInfo = "Pods-MobPulseSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F6647B8BFB63A260BE40DDD78498B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		032F6AE0E0E2CFFEF71CFE45B4830140 /* MobPulseRewardVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseRewardVideoDelegate.h; sourceTree = "<group>"; };
+		0530ADFA8C72CB54CD86259E96C59207 /* Pods-MobPulseSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobPulseSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0670BAEE18700FDF48B78DDF64E9A4A2 /* MobPulseRewardVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseRewardVideo.h; sourceTree = "<group>"; };
+		0B40DD955C7AE9DC0F023E4D16694D57 /* MobPulseSDKClassInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSDKClassInfoModel.h; sourceTree = "<group>"; };
+		102D507A5A0FCFEA0CA259F518669DBA /* MobPulseNativeExpress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseNativeExpress.h; sourceTree = "<group>"; };
+		10FFFA547FE1DC7C321231E9344F55DC /* Pods-MobPulseSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobPulseSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1250DB653EFCC05E18568D4F4E249B65 /* Pods-MobPulseSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobPulseSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		138E9F8E49ECAA34928406D07455453B /* MobPulseSupplierModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseSupplierModel.m; sourceTree = "<group>"; };
+		155081E7B05D28D361B5D83C28F1F5A1 /* MobPulseNativeCustomExpress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseNativeCustomExpress.h; sourceTree = "<group>"; };
+		1F7CD1172D8ECE8C5512AF00D8D0B1C8 /* MobPulseConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseConfig.m; sourceTree = "<group>"; };
+		208F34C4F6400C6CC433746DFAFDE002 /* MobPulseCommonDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseCommonDelegate.h; sourceTree = "<group>"; };
+		2C4B0AC246F21B6CEEC21E1535BF3586 /* NSDictionary+ILUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ILUtil.h"; sourceTree = "<group>"; };
+		3138E092CE7238145266EEF27D86F567 /* MobPulseConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseConfig.h; sourceTree = "<group>"; };
+		3945611FF670FF2BB2E3C78F5D273CB6 /* MobPulseNativeExpressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseNativeExpressView.h; sourceTree = "<group>"; };
+		39A39BF21D8B245EBFA73E675CB183C8 /* ILAdDataJsonModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILAdDataJsonModel.h; sourceTree = "<group>"; };
+		39D3BDB60EC163D13E879418BE95D9D8 /* Pods-MobPulseSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobPulseSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F2FDCB64339525F69E93A490F094F7D /* MobPulseBaseAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseBaseAdapter.m; sourceTree = "<group>"; };
+		3F469478D78C6D81648B08BFEE0D8F76 /* Pods-MobPulseSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobPulseSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		402292F31CE4215A9F7F41A68337F1FE /* Pods-MobPulseSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobPulseSDK_Example.modulemap"; sourceTree = "<group>"; };
+		438B9BF08C4CEB0338D996BCF63E2AFA /* NSArray+ILUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ILUtil.m"; sourceTree = "<group>"; };
+		4681FA91A52D30ED18FB1E80A0EC44A2 /* MobPulseSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobPulseSDK-Info.plist"; sourceTree = "<group>"; };
+		4688D1B2C39BFAE88B0430571869BE0E /* MobPulseSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobPulseSDK-dummy.m"; sourceTree = "<group>"; };
+		4850EB5419750553F87B080A643CFF34 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		488CC20AE0632EA22E2F92D0772B79A4 /* MobPulseBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseBannerDelegate.h; sourceTree = "<group>"; };
+		49037F518FB3C85A58A10B33A2FA60CC /* MobPulseSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobPulseSDK.debug.xcconfig; sourceTree = "<group>"; };
+		5063AB19867C5B6770507A05E7A60701 /* Pods-MobPulseSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobPulseSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		529477BD6CA030DEAD81DCBFDA832EE6 /* MobPulseMediationMaterialData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseMediationMaterialData.h; sourceTree = "<group>"; };
+		54B4B849081A065732D4D0139A5DBBDF /* MobPulseFullScreenVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseFullScreenVideo.m; sourceTree = "<group>"; };
+		5720C09066BDF2954436B802CDD1A531 /* Pods-MobPulseSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobPulseSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5912C9D69EE6ED7484456D44E6A7A310 /* MobPulseMediationMaterialData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseMediationMaterialData.m; sourceTree = "<group>"; };
+		5DE96E6545E88C6DD7C39F5430DEF270 /* MobPulseSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobPulseSDK-prefix.pch"; sourceTree = "<group>"; };
+		6AE5249B1A6DB9F8A97DB1C054EF8E97 /* NSString+ILUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ILUtil.m"; sourceTree = "<group>"; };
+		6C3A7925837F0C5C59F257A624966F53 /* MobPulseSupplierDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSupplierDelegate.h; sourceTree = "<group>"; };
+		6DCB109F2D9383579C62D353D4F5A4C1 /* MobPulseBaseAdPosition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseBaseAdPosition.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		739AE4F4A88988DDB94F4697271C30D9 /* MobPulseSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobPulseSDK.release.xcconfig; sourceTree = "<group>"; };
+		771008606AD8BD8D0647F34881CCAAC9 /* Pods-MobPulseSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobPulseSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		7A70369A49C75A356F9BC876DCD2A01D /* MobPulseSDKLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseSDKLog.m; sourceTree = "<group>"; };
+		7AAFE8E057A01F50A9810E4286A06C20 /* MobPulseNativeExpressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseNativeExpressView.m; sourceTree = "<group>"; };
+		7BAF5CA73FE5FA317973A40C1C5E063B /* MobPulseBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseBanner.m; sourceTree = "<group>"; };
+		7C79AFE08FAC856D96D2512C1B7649D8 /* MobPulseSplash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSplash.h; sourceTree = "<group>"; };
+		7EDABBBAD4E9F24A52EEFB8D1930AF05 /* MobPulseBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseBanner.h; sourceTree = "<group>"; };
+		80CBD75C98A0FCC38B2CC07DC5035943 /* MobPulseFullScreenVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseFullScreenVideo.h; sourceTree = "<group>"; };
+		82BCCC1E2E16F36114C9FF3F3621D1A4 /* MobPulseBaseAdPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseBaseAdPosition.h; sourceTree = "<group>"; };
+		87BAFD0A0BE725A11B8F1E14895E1292 /* MobPulseSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobPulseSDK.modulemap; sourceTree = "<group>"; };
+		895462114748537AB1A4E990824138DD /* Pods-MobPulseSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobPulseSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89C4F6E45892FD82078D499345D8A6E1 /* MobPulseBaseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseBaseDelegate.h; sourceTree = "<group>"; };
+		8E4C06C0C82A73AE85D227977A5309C5 /* MobPulseBaseAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseBaseAdapter.h; sourceTree = "<group>"; };
+		9558B588399D7FD968FB73499DEF022C /* ILAdDataCommonInfoMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ILAdDataCommonInfoMananger.m; sourceTree = "<group>"; };
+		961FF94F7B7030D1D1346B5BD4785BB8 /* Pods-MobPulseSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobPulseSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		97025136C005E34EBAD4E6F8D2EEF30A /* MobPulseRewardVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseRewardVideo.m; sourceTree = "<group>"; };
+		97C34F345035D5808B48F7981AC3BC71 /* NSArray+ILUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ILUtil.h"; sourceTree = "<group>"; };
+		98CD3ECDCE71DA03D084F74ED6E3947B /* MobPulseAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseAdapterDelegate.h; sourceTree = "<group>"; };
+		9B19AE847D03660A2165B465C58180EB /* MobPulseSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobPulseSDK-umbrella.h"; sourceTree = "<group>"; };
+		9CCFC664578AED6490B32D63513A1FF3 /* Pods-MobPulseSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MobPulseSDK_Example"; path = Pods_MobPulseSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE3BC54891CC3A0758346A71C20CA4A /* Pods-MobPulseSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobPulseSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		A04ACBCF7FBFA0DC4BA9AF7F5020B24D /* NSString+ILUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ILUtil.h"; sourceTree = "<group>"; };
+		A0F1A2A333448B41ECCE01884B72479A /* ILAdDataEventModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ILAdDataEventModel.m; sourceTree = "<group>"; };
+		A1A67EF25B3396428806EA871409D08F /* MobPulseNativeExpress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseNativeExpress.m; sourceTree = "<group>"; };
+		A21C91EE129BD917020FFD8AC2A587BE /* MobPulseSplash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseSplash.m; sourceTree = "<group>"; };
+		A2FA3E06C769B659B320E3A2FC34CBB1 /* ILAdDataJsonManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILAdDataJsonManager.h; sourceTree = "<group>"; };
+		A6057B500D4EE472C2995B2881F2F7BA /* MobPulseInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseInterstitial.h; sourceTree = "<group>"; };
+		A75BEF108DACF3715E6F74CAB100A0EF /* MobPulseSDKClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseSDKClassInfo.m; sourceTree = "<group>"; };
+		A9AE03D60C920B24E1BE2F14258CBDB8 /* NSObject+MobPulseSDKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MobPulseSDKModel.h"; sourceTree = "<group>"; };
+		ACD22651F8017BA92E98225146AE9341 /* UIApplication+MobPulseSDKs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MobPulseSDKs.m"; sourceTree = "<group>"; };
+		AF9013416AEEDE5615D1B376A427605E /* MobPulseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseError.m; sourceTree = "<group>"; };
+		AFDCB60C645256DE305D3CC4ABC5616B /* MobPulseSDKSupplierManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSDKSupplierManager.h; sourceTree = "<group>"; };
+		B05D17B9FC41231756929C5560D4E047 /* MobPulseSplashDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSplashDelegate.h; sourceTree = "<group>"; };
+		B3DF5532B8F9114CF001EA49B876FD4B /* MobPulseMediationSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobPulseMediationSDK.m; path = MobPulseSDK/Core/MobPulseMediationSDK.m; sourceTree = "<group>"; };
+		B506B0F7657969950568A15F427DD608 /* NSObject+MobPulseSDKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MobPulseSDKModel.m"; sourceTree = "<group>"; };
+		B5D54AECD854B5B873FAB966EB5B62E6 /* ILAdDataEventModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILAdDataEventModel.h; sourceTree = "<group>"; };
+		B98450F2471056C2F8A4F12713D9960F /* MobPulseInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseInterstitialDelegate.h; sourceTree = "<group>"; };
+		BD911CE5E9D9F85247DF043CD4DAA736 /* MobPulseMedationFeedAdModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseMedationFeedAdModel.m; sourceTree = "<group>"; };
+		BFBE1FB6C407474187E63E07FEDA41E2 /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		C165ECC902CC3AD4508767CD9AF24581 /* UIApplication+MobPulseSDKs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MobPulseSDKs.h"; sourceTree = "<group>"; };
+		C2F99B22080F793D951994DC027F7187 /* ILAdDataJsonManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ILAdDataJsonManager.m; sourceTree = "<group>"; };
+		C30B3BFF1EC90128A451967144F7FA82 /* MobPulseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseError.h; sourceTree = "<group>"; };
+		C5144161C92CCD6156D5E3C0D15BDE84 /* ILAdDataCommonInfoMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ILAdDataCommonInfoMananger.h; sourceTree = "<group>"; };
+		CB883F09F05DD746CA450E34E11A2C09 /* MobPulseNativeExpressDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseNativeExpressDelegate.h; sourceTree = "<group>"; };
+		CC2C65EDD2A2AD0929E646A25AA48C26 /* ILAdDataJsonModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ILAdDataJsonModel.m; sourceTree = "<group>"; };
+		CD4E7AD178092C6D073030094DE2F9E1 /* Pods-MobPulseSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobPulseSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D36F09DEC7480276433432D6B0D2D488 /* MobPulseNativeCustomExpress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseNativeCustomExpress.m; sourceTree = "<group>"; };
+		D413E34B2E812CF915186EE347C819E2 /* MobPulseSDKSupplierManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseSDKSupplierManager.m; sourceTree = "<group>"; };
+		DB534369BA2DE1047D6824936611BCC5 /* Pods-MobPulseSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MobPulseSDK_Tests"; path = Pods_MobPulseSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF95C16A6770D37CBA0E5B09C937B4A /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		DF8DA071DD6EA79B1DA31328A4D90FA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E0B91B4F13BD32042B8EB9F890F0197F /* Pods-MobPulseSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobPulseSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E32747F9DBF842907C11901E73C87BBA /* Pods-MobPulseSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobPulseSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3769CB5D8744829C3CD5E6D255D24FD /* NSDictionary+ILUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ILUtil.m"; sourceTree = "<group>"; };
+		E42F42FC2E4F1BC2E97D525BAB6DFC57 /* Pods-MobPulseSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobPulseSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E48153092ABFE7036B66F54C7C596231 /* MobPulseMediationSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobPulseMediationSDK.h; path = MobPulseSDK/Core/MobPulseMediationSDK.h; sourceTree = "<group>"; };
+		E4A421244569A1527C2DC5406A32550A /* MobPulseSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobPulseSDK; path = MobPulseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BBCA057288B27742598190E3500849 /* MobPulseFullScreenVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseFullScreenVideoDelegate.h; sourceTree = "<group>"; };
+		E58975181309A980471B1E4E29ED44DF /* MobPulseSDKClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSDKClassInfo.h; sourceTree = "<group>"; };
+		E645D6367501A06F4658EDC175A6D7F8 /* MobPulseMedationFeedAdModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseMedationFeedAdModel.h; sourceTree = "<group>"; };
+		EC86581156777B952FCC6FD53C469C1D /* MobPulseSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MobPulseSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE563374AF2A529BAFEEEEF66C43B3A3 /* MobPulseInterstitial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MobPulseInterstitial.m; sourceTree = "<group>"; };
+		F4A00C1A9F671D9F08A57A884C046DFE /* MobPulseSDKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSDKLog.h; sourceTree = "<group>"; };
+		F5A18DF45300A8A14FCAC8F0110EFE1F /* Pods-MobPulseSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobPulseSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FD2009B98065C6158FD8B8BAE3ED2E82 /* MobPulseSupplierModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobPulseSupplierModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74D80FBF2A0DD3FB3881CA898E803AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E02616102D472F963DA7EA79604AE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7835AB0AF08670A721E03550EA490F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA694DCE16E4CF9C56C91624CD9D3F24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E37DFC2FCE248A1EDE184651C5A291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06FAE5F3A63ED73B5BE2441FC7C4ED8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0751C5EA85D3D188338FA057F5B587B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87BAFD0A0BE725A11B8F1E14895E1292 /* MobPulseSDK.modulemap */,
+				4688D1B2C39BFAE88B0430571869BE0E /* MobPulseSDK-dummy.m */,
+				4681FA91A52D30ED18FB1E80A0EC44A2 /* MobPulseSDK-Info.plist */,
+				5DE96E6545E88C6DD7C39F5430DEF270 /* MobPulseSDK-prefix.pch */,
+				9B19AE847D03660A2165B465C58180EB /* MobPulseSDK-umbrella.h */,
+				49037F518FB3C85A58A10B33A2FA60CC /* MobPulseSDK.debug.xcconfig */,
+				739AE4F4A88988DDB94F4697271C30D9 /* MobPulseSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MobPulseSDK";
+			sourceTree = "<group>";
+		};
+		30A4F233AD5DFD45C0A188829EEAD728 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				97C34F345035D5808B48F7981AC3BC71 /* NSArray+ILUtil.h */,
+				438B9BF08C4CEB0338D996BCF63E2AFA /* NSArray+ILUtil.m */,
+				2C4B0AC246F21B6CEEC21E1535BF3586 /* NSDictionary+ILUtil.h */,
+				E3769CB5D8744829C3CD5E6D255D24FD /* NSDictionary+ILUtil.m */,
+				A04ACBCF7FBFA0DC4BA9AF7F5020B24D /* NSString+ILUtil.h */,
+				6AE5249B1A6DB9F8A97DB1C054EF8E97 /* NSString+ILUtil.m */,
+				C165ECC902CC3AD4508767CD9AF24581 /* UIApplication+MobPulseSDKs.h */,
+				ACD22651F8017BA92E98225146AE9341 /* UIApplication+MobPulseSDKs.m */,
+			);
+			name = Category;
+			path = MobPulseSDK/Core/Category;
+			sourceTree = "<group>";
+		};
+		4A55C29759D91B47537DB5C8232A19AE /* Pods-MobPulseSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE3BC54891CC3A0758346A71C20CA4A /* Pods-MobPulseSDK_Tests.modulemap */,
+				E0B91B4F13BD32042B8EB9F890F0197F /* Pods-MobPulseSDK_Tests-acknowledgements.markdown */,
+				5720C09066BDF2954436B802CDD1A531 /* Pods-MobPulseSDK_Tests-acknowledgements.plist */,
+				5063AB19867C5B6770507A05E7A60701 /* Pods-MobPulseSDK_Tests-dummy.m */,
+				771008606AD8BD8D0647F34881CCAAC9 /* Pods-MobPulseSDK_Tests-Info.plist */,
+				F5A18DF45300A8A14FCAC8F0110EFE1F /* Pods-MobPulseSDK_Tests-umbrella.h */,
+				0530ADFA8C72CB54CD86259E96C59207 /* Pods-MobPulseSDK_Tests.debug.xcconfig */,
+				10FFFA547FE1DC7C321231E9344F55DC /* Pods-MobPulseSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-MobPulseSDK_Tests";
+			path = "Target Support Files/Pods-MobPulseSDK_Tests";
+			sourceTree = "<group>";
+		};
+		514B7E71511E1B67AAF237ECFFB487BF /* Adspot */ = {
+			isa = PBXGroup;
+			children = (
+				7EDABBBAD4E9F24A52EEFB8D1930AF05 /* MobPulseBanner.h */,
+				7BAF5CA73FE5FA317973A40C1C5E063B /* MobPulseBanner.m */,
+				80CBD75C98A0FCC38B2CC07DC5035943 /* MobPulseFullScreenVideo.h */,
+				54B4B849081A065732D4D0139A5DBBDF /* MobPulseFullScreenVideo.m */,
+				A6057B500D4EE472C2995B2881F2F7BA /* MobPulseInterstitial.h */,
+				EE563374AF2A529BAFEEEEF66C43B3A3 /* MobPulseInterstitial.m */,
+				155081E7B05D28D361B5D83C28F1F5A1 /* MobPulseNativeCustomExpress.h */,
+				D36F09DEC7480276433432D6B0D2D488 /* MobPulseNativeCustomExpress.m */,
+				102D507A5A0FCFEA0CA259F518669DBA /* MobPulseNativeExpress.h */,
+				A1A67EF25B3396428806EA871409D08F /* MobPulseNativeExpress.m */,
+				3945611FF670FF2BB2E3C78F5D273CB6 /* MobPulseNativeExpressView.h */,
+				7AAFE8E057A01F50A9810E4286A06C20 /* MobPulseNativeExpressView.m */,
+				0670BAEE18700FDF48B78DDF64E9A4A2 /* MobPulseRewardVideo.h */,
+				97025136C005E34EBAD4E6F8D2EEF30A /* MobPulseRewardVideo.m */,
+				7C79AFE08FAC856D96D2512C1B7649D8 /* MobPulseSplash.h */,
+				A21C91EE129BD917020FFD8AC2A587BE /* MobPulseSplash.m */,
+				9F4A656718798D5C6F7741D0B3FC12BC /* Protocol */,
+			);
+			name = Adspot;
+			path = MobPulseSDK/Core/Adspot;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60D404AC528F14F3C5A6A54F07B3E604 /* DataJson */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE1FB6C407474187E63E07FEDA41E2 /* GTMBase64.h */,
+				DEF95C16A6770D37CBA0E5B09C937B4A /* GTMBase64.m */,
+				4850EB5419750553F87B080A643CFF34 /* GTMDefines.h */,
+				C5144161C92CCD6156D5E3C0D15BDE84 /* ILAdDataCommonInfoMananger.h */,
+				9558B588399D7FD968FB73499DEF022C /* ILAdDataCommonInfoMananger.m */,
+				B5D54AECD854B5B873FAB966EB5B62E6 /* ILAdDataEventModel.h */,
+				A0F1A2A333448B41ECCE01884B72479A /* ILAdDataEventModel.m */,
+				A2FA3E06C769B659B320E3A2FC34CBB1 /* ILAdDataJsonManager.h */,
+				C2F99B22080F793D951994DC027F7187 /* ILAdDataJsonManager.m */,
+				39A39BF21D8B245EBFA73E675CB183C8 /* ILAdDataJsonModel.h */,
+				CC2C65EDD2A2AD0929E646A25AA48C26 /* ILAdDataJsonModel.m */,
+			);
+			name = DataJson;
+			path = MobPulseSDK/Core/DataJson;
+			sourceTree = "<group>";
+		};
+		656447C6F58AC0E2BCEA35664811399C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B296F11B9D7C10CD3984847F0D59D8DD /* EasyAdMap */,
+				9C6F4E21BA2138EB001524CAD815A6A9 /* EasyAdModels */,
+			);
+			name = Model;
+			path = MobPulseSDK/Core/Model;
+			sourceTree = "<group>";
+		};
+		692C71F84DDDB35DB2413B95BFC67828 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8E4C06C0C82A73AE85D227977A5309C5 /* MobPulseBaseAdapter.h */,
+				3F2FDCB64339525F69E93A490F094F7D /* MobPulseBaseAdapter.m */,
+				82BCCC1E2E16F36114C9FF3F3621D1A4 /* MobPulseBaseAdPosition.h */,
+				6DCB109F2D9383579C62D353D4F5A4C1 /* MobPulseBaseAdPosition.m */,
+				6C3A7925837F0C5C59F257A624966F53 /* MobPulseSupplierDelegate.h */,
+			);
+			name = Base;
+			path = MobPulseSDK/Core/Base;
+			sourceTree = "<group>";
+		};
+		6DA9C9D3E54FE37A0A5C4C2DCFA9A01B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA6D4460DAB3772610E140E77D77994E /* Pods-MobPulseSDK_Example */,
+				4A55C29759D91B47537DB5C8232A19AE /* Pods-MobPulseSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7FAF932385D6FA7F2E8D683104B25554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4A421244569A1527C2DC5406A32550A /* MobPulseSDK */,
+				9CCFC664578AED6490B32D63513A1FF3 /* Pods-MobPulseSDK_Example */,
+				DB534369BA2DE1047D6824936611BCC5 /* Pods-MobPulseSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89904760E6630BE7443E143DDC0ED94B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3138E092CE7238145266EEF27D86F567 /* MobPulseConfig.h */,
+				1F7CD1172D8ECE8C5512AF00D8D0B1C8 /* MobPulseConfig.m */,
+				F4A00C1A9F671D9F08A57A884C046DFE /* MobPulseSDKLog.h */,
+				7A70369A49C75A356F9BC876DCD2A01D /* MobPulseSDKLog.m */,
+				AFDCB60C645256DE305D3CC4ABC5616B /* MobPulseSDKSupplierManager.h */,
+				D413E34B2E812CF915186EE347C819E2 /* MobPulseSDKSupplierManager.m */,
+			);
+			name = Utils;
+			path = MobPulseSDK/Core/Utils;
+			sourceTree = "<group>";
+		};
+		9C6F4E21BA2138EB001524CAD815A6A9 /* EasyAdModels */ = {
+			isa = PBXGroup;
+			children = (
+				C30B3BFF1EC90128A451967144F7FA82 /* MobPulseError.h */,
+				AF9013416AEEDE5615D1B376A427605E /* MobPulseError.m */,
+				E645D6367501A06F4658EDC175A6D7F8 /* MobPulseMedationFeedAdModel.h */,
+				BD911CE5E9D9F85247DF043CD4DAA736 /* MobPulseMedationFeedAdModel.m */,
+				529477BD6CA030DEAD81DCBFDA832EE6 /* MobPulseMediationMaterialData.h */,
+				5912C9D69EE6ED7484456D44E6A7A310 /* MobPulseMediationMaterialData.m */,
+				FD2009B98065C6158FD8B8BAE3ED2E82 /* MobPulseSupplierModel.h */,
+				138E9F8E49ECAA34928406D07455453B /* MobPulseSupplierModel.m */,
+			);
+			name = EasyAdModels;
+			path = EasyAdModels;
+			sourceTree = "<group>";
+		};
+		9F4A656718798D5C6F7741D0B3FC12BC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				98CD3ECDCE71DA03D084F74ED6E3947B /* MobPulseAdapterDelegate.h */,
+				488CC20AE0632EA22E2F92D0772B79A4 /* MobPulseBannerDelegate.h */,
+				89C4F6E45892FD82078D499345D8A6E1 /* MobPulseBaseDelegate.h */,
+				208F34C4F6400C6CC433746DFAFDE002 /* MobPulseCommonDelegate.h */,
+				E4BBCA057288B27742598190E3500849 /* MobPulseFullScreenVideoDelegate.h */,
+				B98450F2471056C2F8A4F12713D9960F /* MobPulseInterstitialDelegate.h */,
+				CB883F09F05DD746CA450E34E11A2C09 /* MobPulseNativeExpressDelegate.h */,
+				032F6AE0E0E2CFFEF71CFE45B4830140 /* MobPulseRewardVideoDelegate.h */,
+				B05D17B9FC41231756929C5560D4E047 /* MobPulseSplashDelegate.h */,
+			);
+			name = Protocol;
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B296F11B9D7C10CD3984847F0D59D8DD /* EasyAdMap */ = {
+			isa = PBXGroup;
+			children = (
+				E58975181309A980471B1E4E29ED44DF /* MobPulseSDKClassInfo.h */,
+				A75BEF108DACF3715E6F74CAB100A0EF /* MobPulseSDKClassInfo.m */,
+				0B40DD955C7AE9DC0F023E4D16694D57 /* MobPulseSDKClassInfoModel.h */,
+				A9AE03D60C920B24E1BE2F14258CBDB8 /* NSObject+MobPulseSDKModel.h */,
+				B506B0F7657969950568A15F427DD608 /* NSObject+MobPulseSDKModel.m */,
+			);
+			name = EasyAdMap;
+			path = EasyAdMap;
+			sourceTree = "<group>";
+		};
+		BA6D4460DAB3772610E140E77D77994E /* Pods-MobPulseSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				402292F31CE4215A9F7F41A68337F1FE /* Pods-MobPulseSDK_Example.modulemap */,
+				CD4E7AD178092C6D073030094DE2F9E1 /* Pods-MobPulseSDK_Example-acknowledgements.markdown */,
+				39D3BDB60EC163D13E879418BE95D9D8 /* Pods-MobPulseSDK_Example-acknowledgements.plist */,
+				1250DB653EFCC05E18568D4F4E249B65 /* Pods-MobPulseSDK_Example-dummy.m */,
+				E42F42FC2E4F1BC2E97D525BAB6DFC57 /* Pods-MobPulseSDK_Example-frameworks.sh */,
+				3F469478D78C6D81648B08BFEE0D8F76 /* Pods-MobPulseSDK_Example-Info.plist */,
+				961FF94F7B7030D1D1346B5BD4785BB8 /* Pods-MobPulseSDK_Example-umbrella.h */,
+				E32747F9DBF842907C11901E73C87BBA /* Pods-MobPulseSDK_Example.debug.xcconfig */,
+				895462114748537AB1A4E990824138DD /* Pods-MobPulseSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-MobPulseSDK_Example";
+			path = "Target Support Files/Pods-MobPulseSDK_Example";
+			sourceTree = "<group>";
+		};
+		CD75DEB7FA117D59075F0478EC898E53 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF8DA071DD6EA79B1DA31328A4D90FA6 /* LICENSE */,
+				EC86581156777B952FCC6FD53C469C1D /* MobPulseSDK.podspec */,
+				02F6647B8BFB63A260BE40DDD78498B1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F159E940D257DBCB178BD352A6BD395F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7FAF932385D6FA7F2E8D683104B25554 /* Products */,
+				6DA9C9D3E54FE37A0A5C4C2DCFA9A01B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E408854C8DD292BC870D06D9509B0F3A /* MobPulseSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E48153092ABFE7036B66F54C7C596231 /* MobPulseMediationSDK.h */,
+				B3DF5532B8F9114CF001EA49B876FD4B /* MobPulseMediationSDK.m */,
+				514B7E71511E1B67AAF237ECFFB487BF /* Adspot */,
+				692C71F84DDDB35DB2413B95BFC67828 /* Base */,
+				30A4F233AD5DFD45C0A188829EEAD728 /* Category */,
+				60D404AC528F14F3C5A6A54F07B3E604 /* DataJson */,
+				656447C6F58AC0E2BCEA35664811399C /* Model */,
+				CD75DEB7FA117D59075F0478EC898E53 /* Pod */,
+				0751C5EA85D3D188338FA057F5B587B7 /* Support Files */,
+				89904760E6630BE7443E143DDC0ED94B /* Utils */,
+			);
+			name = MobPulseSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F159E940D257DBCB178BD352A6BD395F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E408854C8DD292BC870D06D9509B0F3A /* MobPulseSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E0DB49E250138DA21AF6242CA20300C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA47E35D7EF2A8990665F27ED784F396 /* Pods-MobPulseSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6783E1B0FC956456319CAAA82151BF33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037F5556A615ECD521AA35E29BAAD9E8 /* Pods-MobPulseSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A30846418E9247B95F36996EDD1FE76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529C4A498FE053F002135E9B1E903525 /* GTMBase64.h in Headers */,
+				4FC66DA2BC9286A1B0D90BFA37D87D78 /* GTMDefines.h in Headers */,
+				1C29C6C243045D17873B145F753229BA /* ILAdDataCommonInfoMananger.h in Headers */,
+				3DC9E29FED32969B2BC753B66856997D /* ILAdDataEventModel.h in Headers */,
+				1432FB2A12AAEDA79380842451341B6D /* ILAdDataJsonManager.h in Headers */,
+				55E74F510EE155C2A062CD50611C5BE6 /* ILAdDataJsonModel.h in Headers */,
+				68A2E535BA05298414F4E0E05DF4920A /* MobPulseAdapterDelegate.h in Headers */,
+				987E4F6123A01796E83E97E919AB6FCF /* MobPulseBanner.h in Headers */,
+				D78F6170E6B905BD6BCF1451D808D8D5 /* MobPulseBannerDelegate.h in Headers */,
+				7CB176E321FE4BB0EAE20ED0150ABC80 /* MobPulseBaseAdapter.h in Headers */,
+				4948F8558A356E4DE2139EB0BD012D40 /* MobPulseBaseAdPosition.h in Headers */,
+				1EAD7F227D41725077EE4E2D7930515C /* MobPulseBaseDelegate.h in Headers */,
+				414AF001B98B2EF33D0735C42E3368A6 /* MobPulseCommonDelegate.h in Headers */,
+				5C2B2C5AA980C425336DB1AE4EE95536 /* MobPulseConfig.h in Headers */,
+				61E49A8680BD290B9AA9EF28FFAF5C6A /* MobPulseError.h in Headers */,
+				4B55D1CF564B56F077D7A3B193AD1726 /* MobPulseFullScreenVideo.h in Headers */,
+				133DBBA526C6CC8EDF16EB15AA05F5B2 /* MobPulseFullScreenVideoDelegate.h in Headers */,
+				0C3B439C66A59D1B890C0623FCD3B09B /* MobPulseInterstitial.h in Headers */,
+				152E75BF87C3F92019210FB0F75BF30B /* MobPulseInterstitialDelegate.h in Headers */,
+				71E7284CC43FE6CA7068E50E94BF106F /* MobPulseMedationFeedAdModel.h in Headers */,
+				BCD113D046EF06FC0248116912DE9CEE /* MobPulseMediationMaterialData.h in Headers */,
+				061B544EEBD18108117C6985234C11B2 /* MobPulseMediationSDK.h in Headers */,
+				38205EB1F00238DA33D47AFB2DBDC48E /* MobPulseNativeCustomExpress.h in Headers */,
+				E76165D376DFA35A830A3FEE91079A03 /* MobPulseNativeExpress.h in Headers */,
+				666DAC8949BE8EF5E1A82A974554B730 /* MobPulseNativeExpressDelegate.h in Headers */,
+				4189C593FD3B2F8DED2547A62D0A5CD2 /* MobPulseNativeExpressView.h in Headers */,
+				2BA9E425EC73DE9994ED30A4A7D0E97B /* MobPulseRewardVideo.h in Headers */,
+				91764139ECBEBE508999CFE291F80D08 /* MobPulseRewardVideoDelegate.h in Headers */,
+				9C0C225149135AF96275D91F87A3D6A9 /* MobPulseSDK-umbrella.h in Headers */,
+				F3F6F25514CC16953FA45DEF4FD7895D /* MobPulseSDKClassInfo.h in Headers */,
+				6A8D7E90B44B8B8D239E9422BED7D0C3 /* MobPulseSDKClassInfoModel.h in Headers */,
+				B6BD5A395EA0F2DE96D9A494BC538B66 /* MobPulseSDKLog.h in Headers */,
+				45E921182C6B407770ED932D23A70BCE /* MobPulseSDKSupplierManager.h in Headers */,
+				8D80C6769BD36EEB0EBBD060E1E5A10D /* MobPulseSplash.h in Headers */,
+				EE4795715F7BBEE2A738215E75B50509 /* MobPulseSplashDelegate.h in Headers */,
+				9E0E8585634A1E33F22BCDB5BB706350 /* MobPulseSupplierDelegate.h in Headers */,
+				E7CD9DEAD1982CE0B9996C57C20B1DD5 /* MobPulseSupplierModel.h in Headers */,
+				4881BEF6FE0376C370CEBD7DF44AF074 /* NSArray+ILUtil.h in Headers */,
+				9A1EE1333464A1CB055B90E161C84EE5 /* NSDictionary+ILUtil.h in Headers */,
+				F4AB4BB54981A5B61B94A1E26B13B3E2 /* NSObject+MobPulseSDKModel.h in Headers */,
+				BA1C3BD42B9D02E7AE9DE6A94325DF05 /* NSString+ILUtil.h in Headers */,
+				DF54CB3DD810A41B3743A76EA6194EA2 /* UIApplication+MobPulseSDKs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		650C29BF875988CF74A3681AAB2B76F8 /* Pods-MobPulseSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D760C87C9A37D4FD1B5DD4990B57D281 /* Build configuration list for PBXNativeTarget "Pods-MobPulseSDK_Example" */;
+			buildPhases = (
+				2E0DB49E250138DA21AF6242CA20300C /* Headers */,
+				8E8FF8032FDB1CB18595E1F5881CEE23 /* Sources */,
+				74D80FBF2A0DD3FB3881CA898E803AFC /* Frameworks */,
+				9FA7F227C7232DA27F4FC8A6FE64144F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2AD5C847781463BEFDA49911B3A8F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MobPulseSDK_Example";
+			productName = Pods_MobPulseSDK_Example;
+			productReference = 9CCFC664578AED6490B32D63513A1FF3 /* Pods-MobPulseSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2B093F5D9A911A5B34709EE39408D04 /* Pods-MobPulseSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AFC473EB732BC56E9751A22154DC6E3 /* Build configuration list for PBXNativeTarget "Pods-MobPulseSDK_Tests" */;
+			buildPhases = (
+				6783E1B0FC956456319CAAA82151BF33 /* Headers */,
+				E816230A1A278ABBB044FA2368CFE262 /* Sources */,
+				B1E37DFC2FCE248A1EDE184651C5A291 /* Frameworks */,
+				7C17083264B5C4AC8C13B57C9E5CB109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F68DDE8DC7D547A946934F1173966A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MobPulseSDK_Tests";
+			productName = Pods_MobPulseSDK_Tests;
+			productReference = DB534369BA2DE1047D6824936611BCC5 /* Pods-MobPulseSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8EDC97EADF835FE31FD9B5147910E29 /* MobPulseSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EF4629D15074027CCF853E3FCA2EE9 /* Build configuration list for PBXNativeTarget "MobPulseSDK" */;
+			buildPhases = (
+				9A30846418E9247B95F36996EDD1FE76 /* Headers */,
+				E5075302DAF2F5E1248DFDF5D2DD6950 /* Sources */,
+				7835AB0AF08670A721E03550EA490F50 /* Frameworks */,
+				E02D543A1ABF2120B6BA4E96BF2F8A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobPulseSDK;
+			productName = MobPulseSDK;
+			productReference = E4A421244569A1527C2DC5406A32550A /* MobPulseSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			productRefGroup = 7FAF932385D6FA7F2E8D683104B25554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8EDC97EADF835FE31FD9B5147910E29 /* MobPulseSDK */,
+				650C29BF875988CF74A3681AAB2B76F8 /* Pods-MobPulseSDK_Example */,
+				A2B093F5D9A911A5B34709EE39408D04 /* Pods-MobPulseSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C17083264B5C4AC8C13B57C9E5CB109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA7F227C7232DA27F4FC8A6FE64144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02D543A1ABF2120B6BA4E96BF2F8A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E8FF8032FDB1CB18595E1F5881CEE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D9582AE72A79481C94CEA9E005B19D /* Pods-MobPulseSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5075302DAF2F5E1248DFDF5D2DD6950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5354ABBE7C824C96D8FA2EC84166DC37 /* GTMBase64.m in Sources */,
+				5A6DEE2BC83801C34460D4D0D58084C1 /* ILAdDataCommonInfoMananger.m in Sources */,
+				C1DA244709744C084BBD9EFC0D81A5AE /* ILAdDataEventModel.m in Sources */,
+				1C871046E56CC7E26FC065EC2FDF4FF3 /* ILAdDataJsonManager.m in Sources */,
+				0A4C2765B1E5080BC3DE30C84C11F528 /* ILAdDataJsonModel.m in Sources */,
+				DC6E8AB9248B559CF282FA8C56294909 /* MobPulseBanner.m in Sources */,
+				68FB8C63202CC7D3115D3358FE915836 /* MobPulseBaseAdapter.m in Sources */,
+				AD64227D03CAB998F3437F73584C23E8 /* MobPulseBaseAdPosition.m in Sources */,
+				4C64F1CAAA68EA25195F9E1E6B86E27E /* MobPulseConfig.m in Sources */,
+				7FC8DD0E6C5111C8D6FBE649B3B6528F /* MobPulseError.m in Sources */,
+				14363054327A97C11DA24220F90181CF /* MobPulseFullScreenVideo.m in Sources */,
+				D5C6B19FCE89DCF8A1845A47F83D14BD /* MobPulseInterstitial.m in Sources */,
+				FD4205D4BB36A321CCF7792BD94427B8 /* MobPulseMedationFeedAdModel.m in Sources */,
+				5E3788513FA24F43C20C20C36FDBA402 /* MobPulseMediationMaterialData.m in Sources */,
+				36CE9B759DF5CE99A66F8949F0C2E19D /* MobPulseMediationSDK.m in Sources */,
+				5DBE49D21E77B7127CD3A8AEF1F8FCCD /* MobPulseNativeCustomExpress.m in Sources */,
+				A58189C1BEE67FDDFE097409CE49ED69 /* MobPulseNativeExpress.m in Sources */,
+				FBE862F9214EA883FFCD67E79E7C130D /* MobPulseNativeExpressView.m in Sources */,
+				E80753668BCD14F1DA6EB9956979540A /* MobPulseRewardVideo.m in Sources */,
+				0089B33F7D0E99F3CE9C0D31E60AFCEA /* MobPulseSDK-dummy.m in Sources */,
+				379A1D6F2EE0DD2653BA5340ED50D96E /* MobPulseSDKClassInfo.m in Sources */,
+				CCC7FC0DD2B17FAF2FA623616A6E6F62 /* MobPulseSDKLog.m in Sources */,
+				67E91E6D4C00F79F5D129B2EB3D0FD4B /* MobPulseSDKSupplierManager.m in Sources */,
+				9636A7480968D830752F4B6D6B65FD9A /* MobPulseSplash.m in Sources */,
+				04555FF6122966FC45C17075324BB237 /* MobPulseSupplierModel.m in Sources */,
+				24A42D2832C1DA5F3B2855662FA4AE0F /* NSArray+ILUtil.m in Sources */,
+				F5348090117C75EEA6528DB37753A9F8 /* NSDictionary+ILUtil.m in Sources */,
+				AC9242963CEB40A709744EA23C61CF93 /* NSObject+MobPulseSDKModel.m in Sources */,
+				3DE96727AB8687EA53D6611403CB520D /* NSString+ILUtil.m in Sources */,
+				F61849D1EAF4F6512A821FBFE8967B4F /* UIApplication+MobPulseSDKs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E816230A1A278ABBB044FA2368CFE262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57603409D76AB94F025F6471ED11520 /* Pods-MobPulseSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D2AD5C847781463BEFDA49911B3A8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobPulseSDK;
+			target = A8EDC97EADF835FE31FD9B5147910E29 /* MobPulseSDK */;
+			targetProxy = 23AA9D2E3C704AB1D259254E1356A03A /* PBXContainerItemProxy */;
+		};
+		8F68DDE8DC7D547A946934F1173966A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MobPulseSDK_Example";
+			target = 650C29BF875988CF74A3681AAB2B76F8 /* Pods-MobPulseSDK_Example */;
+			targetProxy = 4D3DE3B7D941917E2A41773F9A5695C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		090D6299B5FB730B6E6C023F52DE3644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739AE4F4A88988DDB94F4697271C30D9 /* MobPulseSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobPulseSDK/MobPulseSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobPulseSDK/MobPulseSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MobPulseSDK/MobPulseSDK.modulemap";
+				PRODUCT_MODULE_NAME = MobPulseSDK;
+				PRODUCT_NAME = MobPulseSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		175E539C2A5A0E263194D07EC83F1557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895462114748537AB1A4E990824138DD /* Pods-MobPulseSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobPulseSDK_Example/Pods-MobPulseSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobPulseSDK_Example/Pods-MobPulseSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FE4544B8ED29A7201B328CBCA32C2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32747F9DBF842907C11901E73C87BBA /* Pods-MobPulseSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobPulseSDK_Example/Pods-MobPulseSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobPulseSDK_Example/Pods-MobPulseSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23BC6CCA52C91C1DE917B20C604883EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0530ADFA8C72CB54CD86259E96C59207 /* Pods-MobPulseSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobPulseSDK_Tests/Pods-MobPulseSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobPulseSDK_Tests/Pods-MobPulseSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C713FEE6E6A0C6EBC4D3DAA5C84FC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FFFA547FE1DC7C321231E9344F55DC /* Pods-MobPulseSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobPulseSDK_Tests/Pods-MobPulseSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobPulseSDK_Tests/Pods-MobPulseSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5A804DE5868F68AD266777874C089EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49037F518FB3C85A58A10B33A2FA60CC /* MobPulseSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobPulseSDK/MobPulseSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobPulseSDK/MobPulseSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MobPulseSDK/MobPulseSDK.modulemap";
+				PRODUCT_MODULE_NAME = MobPulseSDK;
+				PRODUCT_NAME = MobPulseSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24EF4629D15074027CCF853E3FCA2EE9 /* Build configuration list for PBXNativeTarget "MobPulseSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A804DE5868F68AD266777874C089EB /* Debug */,
+				090D6299B5FB730B6E6C023F52DE3644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AFC473EB732BC56E9751A22154DC6E3 /* Build configuration list for PBXNativeTarget "Pods-MobPulseSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BC6CCA52C91C1DE917B20C604883EC /* Debug */,
+				8C713FEE6E6A0C6EBC4D3DAA5C84FC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D760C87C9A37D4FD1B5DD4990B57D281 /* Build configuration list for PBXNativeTarget "Pods-MobPulseSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE4544B8ED29A7201B328CBCA32C2A3 /* Debug */,
+				175E539C2A5A0E263194D07EC83F1557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

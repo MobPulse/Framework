@@ -1,0 +1,6 @@
+framework module Pods_MobPulseSDK_Tests {
+  umbrella header "Pods-MobPulseSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MobPulseSDK (0.1.0)
+
+DEPENDENCIES:
+  - MobPulseSDK (from `../`)
+
+EXTERNAL SOURCES:
+  MobPulseSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MobPulseSDK: 27e596d0c0fa801eebe0afa4850dbb753d5c156b
+
+PODFILE CHECKSUM: 04fc929ad3b97777301e8b79295c918f9dbdb455
+
+COCOAPODS: 1.15.2
